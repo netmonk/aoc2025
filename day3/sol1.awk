@@ -1,6 +1,5 @@
 BEGIN {
 
-max=0;
 }
 
 {
@@ -11,9 +10,9 @@ max=0;
 		for(j=i+1; j <=n; j++){
 			if (int(tableau[i]tableau[j]) > max){
 				max=int(tableau[i]tableau[j])
-		}
-	}
-} 
+		        }
+	        }
+        } 
 	total += max
 }
 
