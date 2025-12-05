@@ -31,7 +31,6 @@ while (cont == 0) {
         	if (arr[i+1] == "@") count++;
         	if (arr[i + width] == "@") count++;
         	if (arr[i + width + 1] == "@") count++;
-        	#print "inex, count: " i, count;
         	if (count < 4) {total++; target[i]=".";} else { target[i]="@"} 
         	continue;
         }	
@@ -39,7 +38,6 @@ while (cont == 0) {
         	if (arr[i-1] == "@") count++;
         	if (arr[i - width] == "@") count++;
         	if (arr[i - width - 1] == "@") count++;
-        	#print "inex, count: " i, count;
         	if (count < 4){ total++; target[i]=".";} else { target[i]="@"}
         	continue;
         }	
@@ -47,7 +45,6 @@ while (cont == 0) {
         	if (arr[i-1] == "@") count++;
         	if (arr[i + width] == "@") count++;
         	if (arr[i + width - 1] == "@") count++;
-        	#print "inex, count: " i, count;
         	if (count < 4){ total++; target[i]=".";} else { target[i]="@"}
         	continue;
         }	
@@ -55,7 +52,6 @@ while (cont == 0) {
         	if (arr[i+1] == "@") count++;
         	if (arr[i - width] == "@") count++;
         	if (arr[i - width + 1] == "@") count++;
-        	#print "inex, count: " i, count;
         	if (count < 4){ total++; target[i]=".";} else { target[i]="@"}
         	continue;
         }	
@@ -65,7 +61,6 @@ while (cont == 0) {
         	if (arr[i + width] == "@") count++;
         	if (arr[i + width + 1] == "@") count++;
         	if (arr[i + width - 1] == "@") count++;
-        	#print "inex, count: " i, count;
         	if (count < 4){ total++; target[i]=".";} else { target[i]="@"}
         	continue;
         }	
@@ -75,7 +70,6 @@ while (cont == 0) {
         	if (arr[i - width] == "@") count++;
         	if (arr[i - width + 1] == "@") count++;
         	if (arr[i - width - 1] == "@") count++;
-        	#print "inex, count: " i, count;
         	if (count < 4){ total++; target[i]=".";} else { target[i]="@"}
         	continue;
         }	
@@ -85,7 +79,6 @@ while (cont == 0) {
         	if (arr[i - width + 1] == "@") count++;
         	if (arr[i + width ] == "@") count++;
         	if (arr[i + width +1 ] == "@") count++;
-        	#print "inex, count: " i, count;
         	if (count < 4){ total++; target[i]=".";} else { target[i]="@"}
         	continue;
        }
@@ -95,7 +88,6 @@ while (cont == 0) {
         	if (arr[i - width - 1] == "@") count++;
         	if (arr[i + width ] == "@") count++;
         	if (arr[i + width -1 ] == "@") count++;
-        	#print "inex, count: " i, count;
         	if (count < 4){ total++; target[i]=".";} else { target[i]="@"}
         	continue;
        }
@@ -108,7 +100,6 @@ while (cont == 0) {
         	if (arr[i + width ] == "@") count++;
         	if (arr[i + width -1 ] == "@") count++;
         	if (arr[i + width +1 ] == "@") count++;
-        	#print "inex, count: " i, count;
         	if (count < 4){ total++; target[i]=".";} else { target[i]="@"}
         	continue;
        }
