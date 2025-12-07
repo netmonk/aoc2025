@@ -12,9 +12,9 @@ line++;
 
 END {
 size = length(matrix);
-print "full length: "  size;
-print "number of line: " line;
-print "number of row: " size/line;
+#print "full length: "  size;
+#print "number of line: " line;
+#print "number of row: " size/line;
 width= size/line; 
 total=0;
 split(matrix, arr, //);
@@ -23,7 +23,7 @@ cont=0;
 run=1;
 while (cont == 0) {
      total=0;
-     print "run number: ", run 	
+#     print "run number: ", run 	
      for(i=1; i <= size; i++) {
      count=0;
         if ( arr[i] == ".") {target[i]="."; continue;} 
@@ -104,7 +104,7 @@ while (cont == 0) {
         	continue;
        }
      }
-     print total;
+     #print total;
      totalplus += total;
      for(j=1; j<=size; j++){
      arr[j]=target[j]; 
